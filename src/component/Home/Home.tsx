@@ -57,6 +57,7 @@ export default function Home() {
     if (isPass.includes("@")) {
       setValidEmail(true);
       // setValidPass(false)
+
       return;
     }
     histury.push("/projects");
